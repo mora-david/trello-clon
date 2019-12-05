@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="095691bc-dc4a-47db-bf1e-04076c60aeda" name="Default Changelist" comment="" />
+    <list default="true" id="095691bc-dc4a-47db-bf1e-04076c60aeda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/urls/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/urls/v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tableros/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trelloclon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trelloclon/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trelloclon/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trelloclon/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UUKbevgTXrcHdFnCrjQzwEZexo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -42,5 +65,16 @@
       <updated>1575405806601</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="755" y="338" width="424" height="484" key="FileChooserDialogImpl" timestamp="1575524368537">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="755" y="338" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1575524368537" />
+    <state x="628" y="1470" key="com.intellij.ide.util.TipDialog" timestamp="1575577364914">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="628" y="1470" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1575577364913" />
+    <state x="628" y="407" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1575572129889" />
   </component>
 </project>
