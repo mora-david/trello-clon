@@ -10,9 +10,12 @@ class Lista(models.Model):
     nombre = models.CharField(max_length=100)
     tablero = models.ForeignKey(Tablero, on_delete=models.CASCADE)
     fecha_creacion = models.DateField(default=timezone.now())
-    posicion = models.IntegerField(default=9999999999)
+    posicion = models.IntegerField(null=True)
+
+    def __str__(self):
+        return self.nombre
 
     def save(self, *args, **kwargs):
-        if self.posicion == 9999999999:
+        if not self.posicion:
             self.posicion = Lista.objects.all().count() + 1
-            super(Lista, self).save(*args, **kwargs)
+        super(Lista, self).save(*args, **kwargs)
