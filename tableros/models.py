@@ -17,5 +17,6 @@ class Tablero(models.Model):
     visibilidad = models.CharField(max_length=1, choices=VISIBILIDAD)
     miembros = models.ManyToManyField(User, related_name='miembros')
 
+
     def __str__(self):
         return self.nombre

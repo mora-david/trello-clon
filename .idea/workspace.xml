@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="095691bc-dc4a-47db-bf1e-04076c60aeda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cards/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comentarios/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls/v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls/v1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableros/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tableros/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trelloclon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trelloclon/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trelloclon/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trelloclon/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tableros/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tableros/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +65,11 @@
     </state>
     <state x="755" y="338" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1575855201588" />
     <state x="2486" y="266" width="374" height="414" key="FileChooserDialogImpl/1920.0.1440.900/0.27.1920.1053@1920.0.1440.900" timestamp="1575851363415" />
-    <state x="628" y="407" key="com.intellij.ide.util.TipDialog" timestamp="1575854534735">
+    <state x="628" y="407" key="com.intellij.ide.util.TipDialog" timestamp="1575992845540">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="628" y="1470" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1575577364913" />
-    <state x="628" y="407" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1575854534735" />
+    <state x="628" y="407" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1575992845540" />
     <state x="628" y="407" key="com.intellij.ide.util.TipDialog/1920.0.1440.900/0.27.1920.1053@0.27.1920.1053" timestamp="1575848683141" />
   </component>
 </project>
