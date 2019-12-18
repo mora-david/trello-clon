@@ -14,7 +14,7 @@ class TableroSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Tablero
-        fields = ('nombre', 'descripcion', 'fecha_de_creacion', 'dueño', 'favorito', 'miembros')
+        fields = ('id','nombre', 'descripcion', 'fecha_de_creacion', 'dueño', 'favorito', 'miembros')
 
 
 class CreateTableroSerializer(serializers.ModelSerializer):

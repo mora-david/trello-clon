@@ -10,4 +10,4 @@ class ListaSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Lista
-        fields = ('nombre', 'tablero', 'fecha_creacion', 'posicion')
+        fields = ('id','nombre', 'tablero', 'fecha_creacion', 'posicion')
