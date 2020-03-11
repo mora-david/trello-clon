@@ -22,7 +22,7 @@ class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
-    permission_classes = (AllowAny)
+    permission_classes = [AllowAny]
 
     def get_serializer_class(self):
         if self.action == 'create':
