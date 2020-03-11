@@ -1,7 +1,9 @@
 from django.contrib.auth.models import User
 from rest_framework import viewsets
+from rest_framework.permissions import AllowAny
 
 from core.serializers import UserSerializer, CreateUserSerializer
+from rest_framework import permissions
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -19,6 +21,8 @@ class UserViewSet(viewsets.ModelViewSet):
     """
     queryset = User.objects.all()
     serializer_class = UserSerializer
+
+    permission_classes = (AllowAny)
 
     def get_serializer_class(self):
         if self.action == 'create':
