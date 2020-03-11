@@ -22,6 +22,13 @@ class CreateTableroSerializer(serializers.ModelSerializer):
     Create Tablero serializer
     """
 
+    dueño = serializers.HiddenField(
+        default=serializers.CurrentUserDefault()
+    )
+
+
+
     class Meta:
         model = Tablero
         fields = ('nombre', 'descripcion', 'fecha_de_creacion', 'dueño', 'favorito', 'miembros')
+

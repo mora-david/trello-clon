@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="095691bc-dc4a-47db-bf1e-04076c60aeda" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cards/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cards/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls/v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls/v1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listas/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tableros/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tableros/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tableros/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tableros/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tableros/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tableros/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trelloclon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trelloclon/settings.py" afterDir="false" />
@@ -36,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -61,24 +64,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575405806601</updated>
+      <workItem from="1582834022031" duration="56000" />
+      <workItem from="1583023644876" duration="12045000" />
+      <workItem from="1583080135016" duration="9361000" />
+      <workItem from="1583092846274" duration="7316000" />
+      <workItem from="1583103280754" duration="1136000" />
+      <workItem from="1583909821573" duration="1012000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="351" width="598" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576264873102">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="657" y="351" width="598" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1576264873102" />
-    <state x="755" y="338" width="374" height="414" key="FileChooserDialogImpl" timestamp="1575855201588">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="755" y="319" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580687796206">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="755" y="319" width="424" height="484" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1580687796206" />
     <state x="755" y="338" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1575855201588" />
     <state x="2486" y="266" width="374" height="414" key="FileChooserDialogImpl/1920.0.1440.900/0.27.1920.1053@1920.0.1440.900" timestamp="1575851363415" />
-    <state x="628" y="1470" key="com.intellij.ide.util.TipDialog" timestamp="1576699145407">
+    <state x="628" y="1470" key="com.intellij.ide.util.TipDialog" timestamp="1583942106767">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
-    <state x="628" y="1470" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1576699145407" />
-    <state x="628" y="407" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1576514581846" />
+    <state x="628" y="390" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583909822110" />
+    <state x="628" y="1470" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1583942106766" />
+    <state x="628" y="1470" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1576699174402" />
+    <state x="628" y="407" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1578770526927" />
     <state x="628" y="407" key="com.intellij.ide.util.TipDialog/1920.0.1440.900/0.27.1920.1053@0.27.1920.1053" timestamp="1575848683141" />
     <state x="624" y="261" width="662" height="715" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576191660689">
       <screen x="0" y="27" width="1920" height="1053" />

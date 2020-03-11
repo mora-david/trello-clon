@@ -13,7 +13,7 @@ class CardSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Tarjeta
-        fields = ('nombre', 'miembros', 'lista', 'descripcion', 'dueño')
+        fields = ('id','nombre', 'miembros', 'lista', 'descripcion', 'dueño')
 
 
 class CreateCardSerializer(serializers.ModelSerializer):
@@ -23,4 +23,14 @@ class CreateCardSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tarjeta
         fields = (
-            'nombre', 'lista', 'descripcion', 'miembros', 'dueño', 'fecha_creacion', 'fecha_vencimiento', 'posicion')
+            'id', 'nombre', 'lista', 'descripcion', 'miembros', 'dueño', 'fecha_creacion', 'fecha_vencimiento', 'posicion')
+
+
+class CardSerializer1111(serializers.ModelSerializer):
+    """
+    General purpose Card serializer
+    """
+
+    class Meta:
+        model = Tarjeta
+        fields = ('id','nombre',)

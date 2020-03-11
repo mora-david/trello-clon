@@ -7,7 +7,6 @@ class ListaSerializer(serializers.ModelSerializer):
     """
     General Purpose Serializer
     """
-
     class Meta:
         model = Lista
         fields = ('id','nombre', 'tablero', 'fecha_creacion', 'posicion')
