@@ -1,1 +1,1 @@
-web: gunicorn trelloclon.wsgi --log-file -
+web: gunicorn trelloclon.wsgi
