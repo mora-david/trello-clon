@@ -23,7 +23,7 @@ class UserViewSet(viewsets.ModelViewSet):
         if self.action == 'create':
             permission_classes = [AllowAny, ]
         else:
-            permission_classes = [IsAdminUser, ]
+            permission_classes = [AllowAny, ]
         return [permission() for permission in permission_classes]
 
     queryset = User.objects.all()
