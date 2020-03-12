@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 from rest_framework import viewsets
-from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.permissions import AllowAny, IsAuthenticated, IsAdminUser
 
 from core.serializers import UserSerializer, CreateUserSerializer
 
@@ -21,9 +21,9 @@ class UserViewSet(viewsets.ModelViewSet):
 
     def get_permissions(self):
         if self.action == 'create':
-            permission_classes = [AllowAny]
+            permission_classes = AllowAny
         else:
-            permission_classes = [IsAuthenticated]
+            permission_classes = IsAdminUser
         return permission_classes
 
 
