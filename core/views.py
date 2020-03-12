@@ -24,6 +24,7 @@ class UserViewSet(viewsets.ModelViewSet):
             permission_classes = [AllowAny]
         else:
             permission_classes = [IsAuthenticated]
+        return permission_classes
 
 
     queryset = User.objects.all()
