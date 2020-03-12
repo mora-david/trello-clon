@@ -19,13 +19,13 @@ class UserViewSet(viewsets.ModelViewSet):
     Elimina un Usuario
     """
 
-    def get_permissions(self):
+    """def get_permissions(self):
         if self.action == 'create':
             permission_classes = [AllowAny, ]
         else:
             permission_classes = [AllowAny, ]
         return [permission() for permission in permission_classes]
-
+"""
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
