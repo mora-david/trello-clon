@@ -24,7 +24,7 @@ class UserViewSet(viewsets.ModelViewSet):
             permission_classes = [AllowAny, ]
         else:
             permission_classes = [IsAdminUser, ]
-        return permission_classes
+        return [permission() for permission in permission_classes]
 
     queryset = User.objects.all()
     serializer_class = UserSerializer
