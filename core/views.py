@@ -21,9 +21,9 @@ class UserViewSet(viewsets.ModelViewSet):
 
     def get_permissions(self):
         if self.action == 'create':
-            permission_classes = (AllowAny)
+            permission_classes = ('AllowAny')
         else:
-            permission_classes = (IsAdminUser)
+            permission_classes = ('IsAdminUser')
         return permission_classes
 
 
