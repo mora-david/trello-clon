@@ -18,7 +18,11 @@ class UserViewSet(viewsets.ModelViewSet):
     delete:
     Elimina un Usuario
     """
-    permission_classes = [AllowAny]
+    def get_queryset(self):
+        if self.action == 'create':
+            permission_classes = [AllowAny]
+
+
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
