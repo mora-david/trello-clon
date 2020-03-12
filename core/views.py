@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from rest_framework import viewsets
+from rest_framework.permissions import AllowAny
 
 from core.serializers import UserSerializer, CreateUserSerializer
 
@@ -17,6 +18,7 @@ class UserViewSet(viewsets.ModelViewSet):
     delete:
     Elimina un Usuario
     """
+    permission_classes = [AllowAny]
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
