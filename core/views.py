@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from rest_framework import viewsets
+from rest_framework.authentication import SessionAuthentication, BasicAuthentication
 from rest_framework.permissions import AllowAny, IsAuthenticated, IsAdminUser
 
 from core.serializers import UserSerializer, CreateUserSerializer
@@ -26,6 +27,7 @@ class UserViewSet(viewsets.ModelViewSet):
             permission_classes = [AllowAny, ]
         return [permission() for permission in permission_classes]
 """
+    authentication_classes = (SessionAuthentication, BasicAuthentication)
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
