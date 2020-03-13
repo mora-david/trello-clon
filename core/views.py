@@ -28,6 +28,7 @@ class UserViewSet(viewsets.ModelViewSet):
         return [permission() for permission in permission_classes]
 """
     authentication_classes = (SessionAuthentication, BasicAuthentication)
+    permission_classes = (AllowAny,)
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
