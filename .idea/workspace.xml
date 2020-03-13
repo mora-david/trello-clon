@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="095691bc-dc4a-47db-bf1e-04076c60aeda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trelloclon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trelloclon/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="095691bc-dc4a-47db-bf1e-04076c60aeda" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +61,7 @@
       <workItem from="1583909821573" duration="1012000" />
       <workItem from="1583942101480" duration="10768000" />
       <workItem from="1583971413487" duration="7055000" />
-      <workItem from="1583992763276" duration="700000" />
+      <workItem from="1583992763276" duration="1410000" />
     </task>
     <servers />
   </component>
@@ -84,10 +80,10 @@
     <state x="755" y="319" width="424" height="484" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1580687796206" />
     <state x="755" y="338" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1575855201588" />
     <state x="2486" y="266" width="374" height="414" key="FileChooserDialogImpl/1920.0.1440.900/0.27.1920.1053@1920.0.1440.900" timestamp="1575851363415" />
-    <state x="628" y="390" key="com.intellij.ide.util.TipDialog" timestamp="1583992764642">
+    <state x="628" y="390" key="com.intellij.ide.util.TipDialog" timestamp="1584116229870">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="628" y="390" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583992764642" />
+    <state x="628" y="390" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584116229870" />
     <state x="628" y="1470" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1583942106766" />
     <state x="628" y="1470" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1576699174402" />
     <state x="628" y="407" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1578770526927" />
